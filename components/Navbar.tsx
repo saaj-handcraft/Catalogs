@@ -1,5 +1,7 @@
+import Image from "next/image";
 import Link from "next/link";
 import { MobileMenu } from "@/components/MobileMenu";
+import logo from "../images/logo.webp";
 
 const links = [
   { href: "/", label: "Home" },
@@ -14,8 +16,7 @@ export function Navbar() {
     <header className="site-header">
       <div className="container navbar">
         <Link className="brand" href="/" aria-label="Saaj home">
-          <span className="brand-mark" aria-hidden="true">S</span>
-          <span>Saaj</span>
+          <Image src={logo} alt="Saaj logo" className="brand-logo" width={170} height={46} priority />
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {links.map((link) => <Link href={link.href} key={link.href}>{link.label}</Link>)}
