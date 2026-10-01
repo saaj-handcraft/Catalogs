@@ -18,7 +18,7 @@ export function AboutSection({ compact = false }: AboutSectionProps) {
           <ul className="value-list">
             {site.values.map((value) => <li key={value}>{value}</li>)}
           </ul>
-          {compact && <Link className="text-link" href="/about/">Read Sajira&apos;s story <span aria-hidden="true">↗</span></Link>}
+          {compact && <Link className="text-link" href="/about/">Read Saaj&apos;s story <span aria-hidden="true">↗</span></Link>}
         </div>
       </div>
     </section>

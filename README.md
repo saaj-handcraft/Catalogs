@@ -1,6 +1,6 @@
-# Sajira
+# Saaj
 
-Static product showcase for Sajira, a handmade craft brand.
+Static product showcase for Saaj, a handmade craft brand.
 
 ## Requirements
 
@@ -33,10 +33,10 @@ Product and collection records are in `data/products.ts` and `data/collections.t
 paths and descriptive alt text live with each record. Add corresponding local images to `public/`
 and update only the catalog data; reusable card components do not need edits. Use lowercase kebab-case
 names such as `public/products/marigold-tassel-front.webp`, `public/collections/diwali.webp`, and
-`public/images/hero-sajira.webp`. Keep descriptive alt text in the matching TypeScript data record.
+`public/images/hero-saaj.webp`. Keep descriptive alt text in the matching TypeScript data record.
 Current remote demo
 photography and sample product names/descriptions are temporary and should be replaced with
-Sajira-approved product photography and copy before launch. Contact links remain intentionally
+Saaj-approved product photography and copy before launch. Contact links remain intentionally
 unconfigured until verified brand details are supplied.
 
 ## GitHub Pages

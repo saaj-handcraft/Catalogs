@@ -4,7 +4,7 @@ import { collections } from "@/data/collections";
 
 export const metadata: Metadata = {
   title: "Collections",
-  description: "Explore Sajira collections for festivals, gifting, weddings, and home.",
+  description: "Explore Saaj collections for festivals, gifting, weddings, and home.",
 };
 
 export default function CollectionsPage() {

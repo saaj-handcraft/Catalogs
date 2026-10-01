@@ -1,4 +1,4 @@
-# Specification Quality Checklist: Sajira Handmade Brand Showcase
+# Specification Quality Checklist: Saaj Handmade Brand Showcase
 
 **Purpose**: Validate specification completeness and quality before proceeding to planning
 **Created**: 2026-09-23

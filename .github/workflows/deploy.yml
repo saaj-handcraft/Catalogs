@@ -1,9 +1,7 @@
-name: Build and deploy Sajira
+name: Build and deploy Saaj
 
 on:
   push:
-    branches: [main]
-  pull_request:
     branches: [main]
   workflow_dispatch:
 

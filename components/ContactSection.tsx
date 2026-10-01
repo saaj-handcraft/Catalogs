@@ -17,7 +17,7 @@ export function ContactSection({ compact = false }: ContactSectionProps) {
         </div>
         <div className="contact-links">
           {instagramUrl && <a href={instagramUrl} target="_blank" rel="noreferrer">Instagram <span aria-hidden="true">↗</span></a>}
-          {email && <a href={`mailto:${email}`}>Email Sajira <span aria-hidden="true">↗</span></a>}
+          {email && <a href={`mailto:${email}`}>Email Saaj <span aria-hidden="true">↗</span></a>}
           {whatsappUrl && <a href={whatsappUrl} target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>}
           {location && <p>{location}</p>}
           {!hasContact && <p>Contact details will be added here soon.</p>}

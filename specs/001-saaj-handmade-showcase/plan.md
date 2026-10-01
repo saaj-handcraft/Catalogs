@@ -1,14 +1,14 @@
-# Implementation Plan: Sajira Handmade Showcase
+# Implementation Plan: Saaj Handmade Showcase
 
-**Branch**: `001-sajira-handmade-showcase` | **Date**: 2026-09-23 | **Spec**: [spec.md](./spec.md)
+**Branch**: `001-saaj-handmade-showcase` | **Date**: 2026-09-23 | **Spec**: [spec.md](./spec.md)
 
-**Input**: Feature specification from `/specs/001-sajira-handmade-showcase/spec.md`
+**Input**: Feature specification from `/specs/001-saaj-handmade-showcase/spec.md`
 
 **Note**: This template is filled in by the `/speckit-plan` command; its definition describes the execution workflow.
 
 ## Summary
 
-Build Sajira's first online presence as a responsive, informational product showcase. The site
+Build Saaj's first online presence as a responsive, informational product showcase. The site
 will use Next.js App Router, React, strict TypeScript, local typed catalogue data, reusable server
 components, and static export to GitHub Pages. Products will render as reusable cards; only products
 explicitly marked in content will receive generated static detail pages. No server, database, API,
