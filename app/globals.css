@@ -170,6 +170,13 @@ img {
   text-decoration: none;
 }
 
+.brand-logo {
+  display: block;
+  width: auto;
+  height: 4.2rem;
+  object-fit: contain;
+}
+
 .brand-mark {
   display: grid;
   width: 2rem;
@@ -180,6 +187,14 @@ img {
   color: var(--terracotta);
   font-size: 1rem;
   font-style: italic;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: clamp(30rem, 42vw, 52rem);
+  object-fit: cover;
+  border-radius: 1.1rem;
 }
 
 .desktop-nav {
@@ -266,9 +281,9 @@ img {
 }
 
 .hero-layout {
-  display: grid;
-  gap: 2.25rem;
-  padding-block: 2.5rem 3rem;
+  /* display: grid; */
+  /* gap: 2.25rem; */
+  /* padding-block: 2.5rem 3rem; */
 }
 
 .hero-copy {
