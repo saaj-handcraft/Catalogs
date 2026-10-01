@@ -2,6 +2,7 @@ import Link from "next/link";
 import { site } from "@/data/site";
 
 const links = [
+  { href: "/categories/", label: "Categories" },
   { href: "/products/", label: "Products" },
   { href: "/collections/", label: "Collections" },
   { href: "/about/", label: "Our story" },

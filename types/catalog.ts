@@ -22,6 +22,14 @@ export interface Collection {
   slug?: string;
 }
 
+export interface Category {
+  id: string;
+  name: string;
+  slug: string;
+  image: string;
+  imageAlt: string;
+}
+
 export interface SiteContact {
   instagramUrl?: string;
   email?: string;

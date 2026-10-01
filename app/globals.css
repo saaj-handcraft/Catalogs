@@ -121,11 +121,32 @@ img {
   gap: 1rem;
 }
 
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 @media (min-width: 680px) {
   .product-grid,
   .collection-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1.5rem;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .category-index-grid .category-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1.25rem;
+  }
+
+  .home-category-grid .category-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
   }
 }
 
@@ -133,6 +154,11 @@ img {
   .product-grid,
   .collection-grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .home-category-grid .category-grid {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    gap: 1rem;
   }
 }
 
@@ -404,11 +430,18 @@ img {
 }
 
 .product-card,
-.collection-card {
+.collection-card,
+.category-card {
   min-width: 0;
 }
 
 .product-card > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.category-card > a {
+  display: block;
   color: inherit;
   text-decoration: none;
 }
@@ -425,14 +458,50 @@ img {
   aspect-ratio: 0.9;
 }
 
+.category-image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 1;
+  background: var(--surface);
+}
+
 .product-card img,
-.collection-card img {
+.collection-card img,
+.category-card img {
   transition: transform 350ms ease;
 }
 
 .product-card a:hover img,
-.collection-card:hover img {
+.collection-card:hover img,
+.category-card a:hover img {
   transform: scale(1.035);
+}
+
+.category-card h3,
+.product-name {
+  margin: 0.8rem 0 0;
+  font-size: 1.3rem;
+}
+
+.category-card h3 {
+  text-align: center;
+}
+
+.category-back-link {
+  margin-bottom: 1.5rem;
+}
+
+.home-category-grid .category-card h3 {
+  font-size: 1.1rem;
+}
+
+.category-index-grid .category-card {
+  width: 95%;
+  margin-inline: auto;
+}
+
+.category-index-grid .category-card h3 {
+  font-size: 1.1rem;
 }
 
 .product-copy,
