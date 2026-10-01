@@ -1,12 +1,12 @@
-# Feature Specification: Sajira Handmade Showcase
+# Feature Specification: Saaj Handmade Showcase
 
-**Feature Branch**: `001-sajira-handmade-showcase`
+**Feature Branch**: `001-saaj-handmade-showcase`
 
 **Created**: 2026-09-23
 
 **Status**: Draft
 
-**Input**: User description: "Build a responsive static website for a handmade/handcraft brand called Sajira."
+**Input**: User description: "Build a responsive static website for a handmade/handcraft brand called Saaj."
 
 ## Clarifications
 
@@ -16,21 +16,21 @@
 
 ## User Scenarios & Testing _(mandatory)_
 
-### User Story 1 - Discover the Sajira Brand (Priority: P1)
+### User Story 1 - Discover the Saaj Brand (Priority: P1)
 
-A first-time visitor arrives at Sajira's website and quickly understands what the brand offers,
+A first-time visitor arrives at Saaj's website and quickly understands what the brand offers,
 what makes the products handmade, and where to begin browsing.
 
-**Why this priority**: The website is Sajira's first online presence, so communicating the brand
+**Why this priority**: The website is Saaj's first online presence, so communicating the brand
 identity and product focus is the primary value of the experience.
 
 **Independent Test**: Open the homepage on a phone or desktop and verify that the visitor can identify
-Sajira, understand its handmade focus, see a representative hero image, and reach the product
+Saaj, understand its handmade focus, see a representative hero image, and reach the product
 catalogue from the primary call to action.
 
 **Acceptance Scenarios**:
 
-1. **Given** a visitor opens the homepage, **When** the page loads, **Then** the visitor sees Sajira's
+1. **Given** a visitor opens the homepage, **When** the page loads, **Then** the visitor sees Saaj's
    name, a concise handmade brand introduction, a representative hero image, and a clear route to
    explore products.
 2. **Given** a visitor is reading the homepage, **When** they move through the page, **Then** they
@@ -46,7 +46,7 @@ catalogue from the primary call to action.
 A customer interested in handmade gifts, festive accessories, traditional or contemporary pieces,
 home decor, or wearable products browses the catalogue and uses collections to find relevant items.
 
-**Why this priority**: Product discovery is the central customer task and directly supports Sajira's
+**Why this priority**: Product discovery is the central customer task and directly supports Saaj's
 business goal of showcasing its handmade work.
 
 **Independent Test**: Open the products and collections areas, inspect multiple entries, and verify
@@ -71,9 +71,9 @@ editing the page structure.
 
 ---
 
-### User Story 3 - Find a Way to Contact Sajira (Priority: P2)
+### User Story 3 - Find a Way to Contact Saaj (Priority: P2)
 
-A visitor who wants to follow Sajira, ask about the brand, or continue a conversation finds clear
+A visitor who wants to follow Saaj, ask about the brand, or continue a conversation finds clear
 external contact options without submitting information to the website.
 
 **Why this priority**: Contact information enables follow-up interest while respecting the Wave 1
@@ -88,7 +88,7 @@ it opens the appropriate external service or application and that no form is pre
    details are visible, and WhatsApp and business location details appear when configured.
 2. **Given** a visitor selects an available contact method, **When** the link is activated, **Then**
    the appropriate external service or application opens with descriptive link text.
-3. **Given** a visitor wants to contact Sajira, **When** they inspect the page, **Then** no contact
+3. **Given** a visitor wants to contact Saaj, **When** they inspect the page, **Then** no contact
    form, customer account, checkout, payment, or other customer-input workflow is offered.
 
 ### Edge Cases
@@ -110,7 +110,7 @@ it opens the appropriate external service or application and that no form is pre
 
 ### Functional Requirements
 
-- **FR-001**: The website MUST identify the brand as Sajira and explain its handmade product focus on
+- **FR-001**: The website MUST identify the brand as Saaj and explain its handmade product focus on
   the homepage.
 - **FR-002**: The website MUST provide navigable Home, Products, Collections, About, and Contact
   areas.
@@ -130,7 +130,7 @@ it opens the appropriate external service or application and that no form is pre
   Gifts, and Home Decor.
 - **FR-009**: The collection catalogue MUST allow additional collections to be added through
   catalogue content without changing the collection presentation pattern.
-- **FR-010**: The About area MUST communicate Sajira's brand story, handmade philosophy,
+- **FR-010**: The About area MUST communicate Saaj's brand story, handmade philosophy,
   craftsmanship, inspiration, and values without unsupported claims.
 - **FR-011**: The Contact area MUST provide Instagram and email links, plus WhatsApp and business
   location details when available.
@@ -163,16 +163,16 @@ it opens the appropriate external service or application and that no form is pre
   catalogue card and containing the product's fuller available information.
 - **Collection**: A thematic or product-based grouping of catalogue items, represented by a name,
   image, and description or context.
-- **Contact Method**: An external way to connect with Sajira, such as Instagram, email, WhatsApp, or
+- **Contact Method**: An external way to connect with Saaj, such as Instagram, email, WhatsApp, or
   an optional business location.
-- **Brand Story**: The content describing Sajira's handmade philosophy, craftsmanship, inspiration,
+- **Brand Story**: The content describing Saaj's handmade philosophy, craftsmanship, inspiration,
   and values.
 
 ## Success Criteria _(mandatory)_
 
 ### Measurable Outcomes
 
-- **SC-001**: In usability review, at least 90% of first-time visitors can identify Sajira's product
+- **SC-001**: In usability review, at least 90% of first-time visitors can identify Saaj's product
   focus and reach the product catalogue from the homepage within 30 seconds.
 - **SC-002**: Visitors can locate and open the Products, Collections, About, and Contact areas from
   mobile and desktop layouts in no more than three interactions per destination.
@@ -193,7 +193,7 @@ it opens the appropriate external service or application and that no form is pre
 
 ## Assumptions
 
-- Sajira will provide or approve final product photography, brand copy, contact details, and any
+- Saaj will provide or approve final product photography, brand copy, contact details, and any
   business location before release; temporary imagery can be replaced without changing catalogue
   presentation.
 - Wave 1 does not need product purchasing, inventory accuracy, customer accounts, enquiry capture,

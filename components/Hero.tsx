@@ -9,7 +9,7 @@ export function Hero() {
           <p className="eyebrow">Handmade for life&apos;s bright moments</p>
           <h1 id="hero-title">Little details.<br />Lasting joy.</h1>
           <p className="hero-intro">
-            Meet Sajira: a collection of handmade accents inspired by festive color, meaningful
+            Meet Saaj: a collection of handmade accents inspired by festive color, meaningful
             gifting, and the beauty of making.
           </p>
           <Link className="button-primary" href="/products/">Explore the collection <span aria-hidden="true">↗</span></Link>

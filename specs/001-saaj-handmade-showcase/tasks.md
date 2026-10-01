@@ -1,10 +1,10 @@
 ---
-description: "Executable task list for implementing the Sajira static showcase"
+description: "Executable task list for implementing the Saaj static showcase"
 ---
 
-# Tasks: Sajira Handmade Showcase
+# Tasks: Saaj Handmade Showcase
 
-**Input**: Design documents from `specs/001-sajira-handmade-showcase/`
+**Input**: Design documents from `specs/001-saaj-handmade-showcase/`
 
 **Prerequisites**: `plan.md`, `spec.md`
 
@@ -42,9 +42,9 @@ assets required before user-facing story work.
 
 ---
 
-## Phase 3: User Story 1 - Discover the Sajira Brand (Priority: P1)
+## Phase 3: User Story 1 - Discover the Saaj Brand (Priority: P1)
 
-**Goal**: A first-time visitor understands Sajira's handmade focus and can reach product discovery.
+**Goal**: A first-time visitor understands Saaj's handmade focus and can reach product discovery.
 
 **Independent Test**: Start at `/`, identify the brand and product focus, view hero and featured
 content, and reach `/products` from a touch or keyboard interaction at mobile and desktop widths.
@@ -56,7 +56,7 @@ content, and reach `/products` from a touch or keyboard interaction at mobile an
 - [x] T016 [P] [US1] Frontend: Build the brand introduction and responsive hero image with a Products call to action in `components/Hero.tsx`; acceptance: meaningful alt text, stable image proportions, and a visible product route are present.
 - [x] T017 [P] [US1] Frontend: Build the shared footer with primary navigation and configured social/contact links in `components/Footer.tsx`; acceptance: links use descriptive text and omit unavailable contact methods.
 - [x] T018 [US1] Frontend: Compose the homepage shell, metadata, hero, featured product and collection previews, brand-story teaser, craft values, and contact teaser in `app/page.tsx`; acceptance: the page follows the required section order and uses shared components/local data rather than duplicated catalog markup. Depends on T014-T017.
-- [x] T019 [US1] SEO/accessibility: Add semantic landmarks, one page-level heading, descriptive section headings, and home metadata in `app/page.tsx` and `app/layout.tsx`; acceptance: heading levels are logical and the browser tab title and description identify Sajira.
+- [x] T019 [US1] SEO/accessibility: Add semantic landmarks, one page-level heading, descriptive section headings, and home metadata in `app/page.tsx` and `app/layout.tsx`; acceptance: heading levels are logical and the browser tab title and description identify Saaj.
 - [ ] T020 [US1] Validation: Verify the homepage discovery journey and navigation at phone, tablet, and desktop widths in `README.md` validation notes; acceptance: Products is reachable within three interactions, layout has no horizontal scrolling, and keyboard focus remains visible.
 
 ---
@@ -84,7 +84,7 @@ without changing presentation components, and open a selected product's static d
 
 ---
 
-## Phase 5: User Story 3 - Find a Way to Contact Sajira (Priority: P2)
+## Phase 5: User Story 3 - Find a Way to Contact Saaj (Priority: P2)
 
 **Goal**: Visitors learn the brand story and find available external contact methods without submitting
 information to the site.
@@ -107,7 +107,7 @@ links, and confirm no input form or customer-data flow is present.
 **Purpose**: Complete cross-cutting SEO, responsive, accessibility, performance, static export, and
 deployment checks before production publishing.
 
-- [x] T037 [P] [Polish] SEO: Add shared metadata defaults and Open Graph values in `app/layout.tsx` and `data/site.ts`; acceptance: homepage and every primary route have meaningful titles/descriptions and social previews use the correct Sajira identity.
+- [x] T037 [P] [Polish] SEO: Add shared metadata defaults and Open Graph values in `app/layout.tsx` and `data/site.ts`; acceptance: homepage and every primary route have meaningful titles/descriptions and social previews use the correct Saaj identity.
 - [ ] T038 [P] [Polish] Accessibility: Review semantic landmarks, heading order, image alternatives, external-link labels, keyboard focus, and contrast in `app/`, `components/`, and `app/globals.css`; acceptance: all primary flows are usable with keyboard navigation and meaningful imagery has descriptive alt text.
 - [x] T039 [Polish] Performance: Review image sizing, stable aspect ratios, loading priority, and placeholder replacement instructions in `components/`, `data/`, `public/`, and `README.md`; acceptance: page layout remains stable while images load and replacing photography requires only asset/data edits.
 - [x] T040 [Polish] Validation: Run `npm run lint`, `npx tsc --noEmit`, and `npm run build` from `package.json` scripts; acceptance: all quality gates pass and Next.js emits a static `out/` directory.
@@ -116,7 +116,7 @@ deployment checks before production publishing.
 - [x] T043 Configuration: Add the GitHub Pages Actions workflow in `.github/workflows/deploy.yml`; acceptance: pushes to `main` install dependencies, run lint/type/build checks, upload the static `out/` artifact, and deploy it with Pages permissions.
 - [x] T044 Configuration: Document GitHub Pages source, repository base-path value, and branch protection expectations in `README.md`; acceptance: deployment configuration identifies `main` as production and feature branches as the change path.
 - [ ] T045 Deployment: Configure GitHub repository Pages settings and environment for `.github/workflows/deploy.yml`; acceptance: Pages uses GitHub Actions and the required deployment permissions are enabled.
-- [ ] T046 Deployment: Push the approved changes to `main` and verify the Actions run and deployed Sajira URL; acceptance: workflow succeeds, homepage and all primary routes load, selected detail pages load, and images/CSS resolve under the repository URL.
+- [ ] T046 Deployment: Push the approved changes to `main` and verify the Actions run and deployed Saaj URL; acceptance: workflow succeeds, homepage and all primary routes load, selected detail pages load, and images/CSS resolve under the repository URL.
 - [ ] T047 [Polish] Documentation: Record the final local/deployed verification results and known content replacements in `README.md`; acceptance: release notes identify successful build, lint, static export, responsive, accessibility, link, image, and Pages checks.
 
 ---
@@ -159,7 +159,7 @@ deployment checks before production publishing.
 
 ## Independent Test Criteria
 
-- **US1**: A visitor identifies Sajira, sees the hero and homepage discovery sections, and reaches
+- **US1**: A visitor identifies Saaj, sees the hero and homepage discovery sections, and reaches
   Products within three interactions on phone and desktop; keyboard navigation works and no
   horizontal scrolling occurs.
 - **US2**: Products and all ten collections display correctly; product data changes do not require

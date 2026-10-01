@@ -13,9 +13,9 @@ export function Navbar() {
   return (
     <header className="site-header">
       <div className="container navbar">
-        <Link className="brand" href="/" aria-label="Sajira home">
+        <Link className="brand" href="/" aria-label="Saaj home">
           <span className="brand-mark" aria-hidden="true">S</span>
-          <span>Sajira</span>
+          <span>Saaj</span>
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {links.map((link) => <Link href={link.href} key={link.href}>{link.label}</Link>)}

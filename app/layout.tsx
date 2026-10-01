@@ -7,12 +7,12 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
-    default: "Sajira | Handmade pieces for joyful moments",
-    template: "%s | Sajira",
+    default: "Saaj | Handmade pieces for joyful moments",
+    template: "%s | Saaj",
   },
   description: site.description,
   openGraph: {
-    title: "Sajira | Handmade pieces for joyful moments",
+    title: "Saaj | Handmade pieces for joyful moments",
     description: site.description,
     type: "website",
   },
