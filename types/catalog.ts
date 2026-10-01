@@ -1,3 +1,5 @@
+import type { StaticImageData } from "next/image";
+
 export interface Product {
   id: string;
   name: string;
@@ -25,4 +27,12 @@ export interface SiteContact {
   email?: string;
   whatsappUrl?: string;
   location?: string;
+}
+
+export interface HeroSlide {
+  id: string;
+  image: string | StaticImageData;
+  imageAlt: string;
+  href?: string;
+  linkLabel?: string;
 }
