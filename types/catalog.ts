@@ -26,7 +26,7 @@ export interface Category {
   id: string;
   name: string;
   slug: string;
-  image: string;
+  image: string | StaticImageData;
   imageAlt: string;
 }
 

@@ -1,11 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MobileMenu } from "@/components/MobileMenu";
-import logo from "../images/logo.webp";
+import logo from "../images/Logo/logo.webp";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/categories/", label: "Categories" },
   { href: "/products/", label: "Products" },
   { href: "/collections/", label: "Collections" },
   { href: "/about/", label: "About" },

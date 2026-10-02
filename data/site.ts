@@ -1,7 +1,7 @@
 import type { SiteContact } from "@/types/catalog";
 import type { HeroSlide } from "@/types/catalog";
-import welcomeImage from "@/images/WelcomeImage.webp";
-import diwaliImage from "@/images/DiwaliCollectionImage.webp";
+import welcomeImage from "@/images/Hero/WelcomeImage.webp";
+import diwaliImage from "@/images/Hero/DiwaliCollectionImage.webp";
 
 export const site = {
   name: "Saaj",
